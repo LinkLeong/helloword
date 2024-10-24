@@ -1,0 +1,23 @@
+{
+    "name": "hello_word",
+    "ui": { 
+        "name": "hello_word",
+        "title": {
+          "en_us": "hello_word"
+        },
+        "prefetch": true,
+        "show": true,
+        "entry": "/modules/hello_word/index.html",
+        "icon": "/modules/hello_word/favicon.ico",
+        "description": "Assist",
+        "formality": {
+          "type": "newtab",
+          "props": {
+            "width": "100vh",
+            "height": "100vh",
+            "hasModalCard": true,
+            "animation": "zoom-in"
+          }
+        }
+    }   
+}

@@ -1,0 +1,12 @@
+[Unit]
+After=casaos-gateway.service
+After=casaos-message-bus.service
+After=casaos-user-service.service
+Description=Hello Word Service
+
+[Service]
+ExecStart=/usr/bin/hello-word
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
